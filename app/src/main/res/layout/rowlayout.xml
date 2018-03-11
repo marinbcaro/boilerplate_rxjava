@@ -1,0 +1,41 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="repo"
+            type="com.example.android.boilerplate.model.GitRepo"
+            />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:padding="6dip"
+        >
+
+        <TextView
+            android:id="@+id/secondLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{repo.name}"
+            android:textSize="12sp"
+
+            tools:text="hello"
+            />
+
+        <TextView
+            android:id="@+id/firstLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+            android:text="@{repo.description}"
+            android:textSize="16sp"
+            tools:text="hello2"
+            />
+
+    </LinearLayout>
+
+</layout>
