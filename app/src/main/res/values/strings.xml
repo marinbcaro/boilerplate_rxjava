@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Boilerplate</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="enter_a_valid_email_below">Enter a valid email below:</string>
+    <string name="password_than_8_chrs"><![CDATA[password (> than 8 chrs):]]></string>
+    <string name="number_between_1_amp_100"><![CDATA[number (between 1 & 100):]]></string>
+    <string name="submit">Submit</string>
+
+
 </resources>
